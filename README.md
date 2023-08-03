@@ -2,6 +2,14 @@
 
 An eye that keeps track of your Roblox status and shares it with others.
 
+### This is how it looks within this fork:
+
+![image](https://github.com/MixeroTN/stateye/assets/40803091/077ce981-f101-411f-be94-54d531aa0305)
+
+Website and Studio status has been disabled by default. I did it as I already work with Rojo in editor with Rich Presence.
+
+### Original:
+
 ![application](res/roblox-presence.png) ![application](res/roblox-studio-presence.png)
 
 Roblox presence for Discord with only one native standalone executable that relies on zero external dependencies, and doesn't need to be installed.
