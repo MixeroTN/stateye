@@ -35,9 +35,9 @@ pub fn get_config() -> Config {
 	// Default configuration in case file cannot be found
 	let mut config = Config {
 		token: String::new(),
-		website: true,
+		website: false,
 		player: true,
-		studio: true
+		studio: false
 	};
 
 	// Read the config file
@@ -133,9 +133,9 @@ pub fn set_activity(
 		assets = assets.large_image(big_icon_url);
 	}
 
-	if !small_icon_url.is_empty() {
-		assets = assets.small_image(small_icon_url);
-	}
+	//if !small_icon_url.is_empty() {
+		//assets = assets.small_image(small_icon_url);
+	//}
 
 	activity = activity.state(state);
 

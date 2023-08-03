@@ -1,5 +1,6 @@
 # Compiler output is not needed on GitHub
 /target
+/test
 
 # Prevent leaking .config file that contains .ROBLOSECURITY
 **/stateye.config

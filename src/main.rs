@@ -128,7 +128,8 @@ async fn main() {
 				println!("Place Info: {:?}", place_info);
 				println!("Place Icon URL: {:?}", place_icon_url);
 
-				utils::set_activity(&mut roblox_player, "Playing", place_info.name.as_str(), place_icon_url.as_str(), resources::ROBLOX_ICON_URL, vec![
+				//utils::set_activity(&mut roblox_player, "Playing", place_info.name.as_str(), place_icon_url.as_str(), resources::ROBLOX_ICON_URL, vec![
+				utils::set_activity(&mut roblox_player, "", place_info.name.as_str(), place_icon_url.as_str(), "", vec![
 					discord_rich_presence::activity::Button::new("Game Page", place_info.url.as_str())
 				], start_timestamp as i64);
 			}
